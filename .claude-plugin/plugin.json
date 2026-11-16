@@ -1,0 +1,27 @@
+{
+  "name": "asimov-mcp",
+  "displayName": "Asimov by ThinkRobotics",
+  "version": "0.1.0",
+  "description": "Search the ThinkRobotics electronics and robotics catalogue from your project: specs, live price and stock in INR, store policies, parts lists with a buy link, and your own orders and support tickets after sign-in.",
+  "author": {
+    "name": "ThinkRobotics",
+    "url": "https://thinkrobotics.com"
+  },
+  "homepage": "https://github.com/thinkrobotics/asimov-mcp#readme",
+  "repository": "https://github.com/thinkrobotics/asimov-mcp",
+  "license": "MIT",
+  "keywords": [
+    "electronics",
+    "robotics",
+    "components",
+    "hardware",
+    "embedded",
+    "parts-list",
+    "bom",
+    "india",
+    "mcp"
+  ],
+  "documentationUrl": "https://github.com/thinkrobotics/asimov-mcp#readme",
+  "supportUrl": "https://github.com/thinkrobotics/asimov-mcp/issues",
+  "privacyPolicyUrl": "https://github.com/thinkrobotics/asimov-mcp/blob/main/PRIVACY.md"
+}

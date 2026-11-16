@@ -1,0 +1,16 @@
+{
+  "name": "asimov-mcp",
+  "description": "Asimov by ThinkRobotics: catalogue search, live stock and price, store policies, parts lists, orders and support.",
+  "owner": {
+    "name": "ThinkRobotics",
+    "url": "https://thinkrobotics.com"
+  },
+  "plugins": [
+    {
+      "name": "asimov-mcp",
+      "source": "./",
+      "description": "Search the ThinkRobotics catalogue, check live price and stock, get store policies, build a parts list, and look up your orders and support tickets.",
+      "category": "shopping"
+    }
+  ]
+}

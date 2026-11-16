@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "asimov-mcp",
+  "version": "0.1.0",
+  "description": "Search the ThinkRobotics electronics and robotics catalogue from your project: specs, live price and stock in INR, store policies, parts lists with a buy link, and your own orders and support tickets after sign-in.",
+  "author": {
+    "name": "ThinkRobotics",
+    "url": "https://thinkrobotics.com"
+  },
+  "homepage": "https://github.com/thinkrobotics/asimov-mcp#readme",
+  "repository": "https://github.com/thinkrobotics/asimov-mcp",
+  "license": "MIT",
+  "keywords": [
+    "electronics",
+    "robotics",
+    "components",
+    "hardware",
+    "embedded",
+    "parts-list",
+    "bom",
+    "india",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Asimov by ThinkRobotics",
+        "shortDescription": "Find, check and source robotics parts",
+        "longDescription": "Search the thinkrobotics.com catalogue, read specs, check live price and stock in INR, get store policies quoted from the store, and turn a project into a parts list with a buy link. Sign in with your store email to look up your orders and support tickets.",
+        "developerName": "ThinkRobotics",
+        "category": "Shopping",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://thinkrobotics.com",
+        "privacyPolicyURL": "https://github.com/thinkrobotics/asimov-mcp/blob/main/PRIVACY.md",
+        "defaultPrompt": [
+          "Find an in-stock motor driver for two 12 V DC motors under 500 rupees.",
+          "Read this project and build a ThinkRobotics parts list for it.",
+          "What is the ThinkRobotics return policy?"
+        ]
+      }
+    }
+  }
+}

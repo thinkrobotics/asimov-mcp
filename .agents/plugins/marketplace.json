@@ -1,0 +1,20 @@
+{
+  "name": "asimov-mcp",
+  "interface": {
+    "displayName": "Asimov by ThinkRobotics"
+  },
+  "plugins": [
+    {
+      "name": "asimov-mcp",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Shopping"
+    }
+  ]
+}

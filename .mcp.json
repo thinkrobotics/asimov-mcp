@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "thinkrobotics": {
+      "type": "http",
+      "url": "https://mcp.thinkrobotics.com/mcp"
+    },
+    "thinkrobotics-account": {
+      "type": "http",
+      "url": "https://mcp.thinkrobotics.com/account/mcp"
+    }
+  }
+}
